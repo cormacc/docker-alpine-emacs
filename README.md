@@ -1,16 +1,20 @@
 # Docker image for Emacs on Alpine Linux
 
-[![Docker Build Status](https://img.shields.io/docker/build/iquiw/alpine-emacs.svg)](https://hub.docker.com/r/iquiw/alpine-emacs/)
+[![Docker Build Status](https://img.shields.io/docker/build/cormacc/alpine-emacs-git.svg)](https://hub.docker.com/r/cormacc/alpine-emacs-git/)
 
 Emacs from Alpine community repository with MELPA setting.
 
 * Alpine Linux v3.10
 * Emacs v26.3
+* git
+
+Forked from iquiw/alpine-emacs
+>>>>>>> Added git -- updated README
 
 ## How to use this image
 
 ```console
-$ docker run -it iquiw/alpine-emacs
+$ docker run -it cormacc/alpine-emacs-git
 ```
 
 ## Environment Variables

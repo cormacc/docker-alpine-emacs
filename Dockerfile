@@ -1,10 +1,10 @@
 FROM alpine:3.10
 
-MAINTAINER Iku Iwasa "iku.iwasa@gmail.com"
+MAINTAINER Cormac Cannon "cormacc_public@gmail.com"
 
 RUN sed -i s/v3.10/edge/ /etc/apk/repositories
 
-RUN apk update && apk add ca-certificates emacs
+RUN apk update && apk add ca-certificates emacs git
 
 WORKDIR /root
 
