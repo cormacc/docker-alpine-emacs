@@ -10,6 +10,7 @@ Emacs from Alpine community repository with MELPA setting.
 
 Forked from iquiw/alpine-emacs
 >>>>>>> Added git -- updated README
+>>>>>>> Added PlantUML
 
 ## How to use this image
 
